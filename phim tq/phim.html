@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netime</title>
+    <link rel="stylesheet" href="./phim.css">
+    <link rel="stylesheet" href="./reset.css">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/44ec9fb3c1.js" crossorigin="anonymous"></script>
+</head>
+<body class="home blog">
+    <header id="main-menu" class="site-header" role="banner">
+        <div class="centernav">
+            <div class="bound">
+                <div class="logo">
+                    <a href="#" title="Netime" rel="home">
+                        <img src="https://netime.vercel.app/logo.png" alt="" rel="home" />
+                    </a>
+                </div>
+                <label for="show-menu" class="show-menu"><i class="fas fa-bars"></i></label>
+                <span role="navigation">
+                    <ul id="menu-menu" class="menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
+                            <a href="#" aria-current="page"><span>TRANG CHỦ</span></a>
+                        </li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page mobile"><a href="#"><span>ĐĂNG NHẬP</span></a>
+                        </li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>THỂ LOẠI</span></a>
+                            <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Hành Động" href="#">Phim Hành Động</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Phiêu Lưu" href="#">Phim Phiêu Lưu</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Kinh Dị" href="#">Phim Kinh Dị</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Tình Cảm" href="#">Phim Tình Cảm</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Hoạt Hình" href="#">Phim Hoạt Hình</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Võ Thuật" href="#">Phim Võ Thuật</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Hài Hước" href="#">Phim Hài Hước</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Tâm Lý" href="#">Phim Tâm Lý</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Viễn Tưỡng" href="#">Phim Viễn Tưỡng</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Thần Thoại" href="#">Phim Thần Thoại</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Chiến Tranh" href="#">Phim Chiến Tranh</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Dã Sữ" href="#">Phim Dã Sữ</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Thể Thao" href="#">Phim Thể Thao</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Hình Sự" href="#">Phim Hình Sự</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim TV Show" href="#">Phim TV Show</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Âm Nhạc" href="#">Phim Âm Nhạc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Tư Liệu" href="#">Phim Tư Liệu</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Kiếm Hiệp" href="#">Phim Kiếm Hiệp</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Viễn Tây" href="#">Phim Viễn Tây</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>QUỐC GIA</span></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Trung Quốc" href="#">Phim Trung Quốc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Hàn Quốc" href="#">Phim Hàn Quốc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Đài Loan" href="#">Phim Đài Loan</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Mỹ" href="#">Phim Mỹ</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Châu Âu" href="#">Phim Châu Âu</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Nhật Bản" href="#">Phim Nhật Bản</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Hồng Kông" href="#">Phim Hồng Kông</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Thái Lan" href="#">Phim Thái Lan</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Châu Á" href="#">Phim Châu Á</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Philippin" href="#">Phim Philippin</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Ấn Độ" href="#">Phim Ấn Độ</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Na Uy" href="#">Phim Na Uy</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Pháp" href="#">Phim Pháp</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Đức" href="#">Phim Đức</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Singapore" href="#">Phim Singapore</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Anh" href="#">Phim Anh</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Nga" href="#">Phim Nga</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Úc" href="#">Phim Úc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Italy" href="#">Phim Italy</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Canada" href="#">Phim Canada</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Phim Tây Ban Nha" href="#">Phim Tây Ban Nha</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>PHIM LẺ</span></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2020" href="#">Năm 2020</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2019" href="#">Năm 2019</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2018" href="#">Năm 2018</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2017" href="#">Năm 2017</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2016" href="#">Năm 2016</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2015" href="#">Năm 2015</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2014" href="#">Năm 2014</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2013" href="#">Năm 2013</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2012" href="#">Năm 2012</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2011" href="#">Năm 2011</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2010" href="#">Năm 2010</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="2009" href="#">Năm 2009</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#"><span>PHIM BỘ</span></a>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Trung Quốc" href="#">Trung Quốc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Hàn Quốc" href="#">Hàn Quốc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Đài Loan" href="#">Đài Loan</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Mỹ" href="#">Mỹ</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Châu Âu" href="#">Châu Âu</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Nhật Bản" href="#">Nhật Bản</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Hồng Kông" href="#">Hồng Kông</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Thái Lan" href="#">Thái Lan</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Châu Á" href="#">Châu Á</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Philippin" href="#">Philippin</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Ấn Độ" href="#">Ấn Độ</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Na Uy" href="#">Na Uy</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Pháp" href="#">Pháp</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Đức" href="#">Đức</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Singapore" href="#">Singapore</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Anh" href="#">Anh</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Nga" href="#">Nga</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Úc" href="#">Úc</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Italy" href="#">Italy</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Canada" href="#">Canada</a>
+                        </li>
+                        <li class="menu-item menu-item-type-taxonomy menu-item-object-country"><a title="Tây Ban Nha" href="#">Tây Ban Nha</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#"><span>TOP IMDb</span></a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page pc"><a href="#"><span>TÀI KHOẢN</span></a>
+                </li>
+                    </ul>
+                    </span>
+                    <div class="searchx">
+                        <form action="" id="form" method="get">
+                            <input type="search" class="search-live" maxlength="256" placeholder="Nhập từ khóa" id="s"/>
+                            <button type="submit" id="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="ms"><i class="fas fa-search"></i>
+                    </div>
+                    <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+        <div id="content">
+            <div class="breadcrumb"><span class="breadcrumb-link-wrap">
+                <a class="breadcrumb-link" href="#">
+                    <span class="breadcrumb-link-text-wrap" itemprop="name">Trang Chủ</span>
+                </a>
+                <span aria-label="breadcrumb separator"> / </span> Phim Trung Quốc
+            </div>
+            <div class="latest">
+                <div class="more">
+                    <h1>Phim Trung Quốc</h1>
+                    <div class="filterm"><i class="fas fa-filter"></i> Filter</div>
+                    <div class="bigfilter">
+                        <div class="movie-search-filter">
+                            <div class="btn-group col-md-12">
+                                <form id="form-filter" class="form-inline" method="get" action="">
+                                    <div class="col-md-2 col-xs-12 col-sm-6">
+                                        <div class="filter-box">
+                                            <div class="filter-box-title">Sắp xếp</div>
+                                            <select class="form-control" id="filter-sort" name="sort">
+                                                <option value="updatetime">Cập nhật</option>
+                                                <option value="popular">Lượt xem</option>
+                                                <option value="new">Thời gian đăng</option>
+                                                <option value="year">Năm sản xuất</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-xs-12 col-sm-6">
+                                        <div class="filter-box">
+                                            <div class="filter-box-title">Định dạng</div>
+                                            <select class="form-control" id="filter-type" name="type">
+                                                <option value="">Định Dạng</option>
+                                                <option value="phim-moi">Phim mới</option>
+                                                <option value="phim-le">Phim lẻ</option>
+                                                <option value="phim-bo">Phim bộ</option>
+                                                <option value="phim-chieu-rap-online">Phim rạp</option>
+                                                <option value="phim-tv-show">TV Show</option>
+                                                <option value="phim-18">Phim 18+</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-xs-12 col-sm-6">
+                                        <div class="filter-box">
+                                            <div class="filter-box-title">Thể loại</div>
+                                            <select class="form-control" id="filter-category" name="category">
+                                                <option value="">Thể Loại</option>
+                                                <option value="phim-18">Phim 18+</option>
+                                                <option value="the-thao">Phim Thể Thao</option>
+                                                <option value="than-thoai">Phim Thần Thoại</option>
+                                                <option value="hai-huoc">Phim Hài Hước</option>
+                                                <option value="phim-co-trang">Phim Cổ Trang</option>
+                                                <option value="phim-khoa-hoc">Phim Khoa Học</option>
+                                                <option value="phim-kinh-dien">Phim Kinh Điển</option>
+                                                <option value="the-thao">Phim Thể Thao</option>
+                                                <option value="giat-gan"> Phim Giật Gân</option>
+                                                <option value="lich-su">Phim Lịch sử</option>
+                                                <option value="tham-hoa">Phim Thảm Họa</option>
+                                                <option value="kiem-hiep">Phim Kiếm Hiệp</option>
+                                                <option value="phieu-luu">Phim Phiêu Lưu</option>
+                                                <option value="hoat-hinh">Phim Hoạt Hình</option>
+                                                <option value="gia-dinh-hoc-duong">Gia Đình - Học Đường</option>
+                                                <option value="chien-tranh">Phim Chiến Tranh</option>
+                                                <option value="tam-ly">Phim Tâm Lý</option>
+                                                <option value="da-su">Phim Dã Sữ</option>
+                                                <option value="tinh-cam">Phim Tình Cảm</option>
+                                                <option value="tu-lieu">Phim Tư Liệu</option>
+                                                <option value="tv-show">Phim TV Show</option>
+                                                <option value="vien-tuong">Phim Viễn Tưỡng</option>
+                                                <option value="vo-thuat">Phim Võ Thuật</option>
+                                                <option value="kinh-di">Phim Kinh Dị</option>
+                                                <option value="vien-tay">Phim Viễn Tây</option>
+                                                <option value="am-nhac">Phim Âm Nhạc</option>
+                                                <option value="hinh-su">Phim Hình Sự</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-xs-12 col-sm-6">
+                                        <div class="filter-box">
+                                            <div class="filter-box-title">Quốc gia</div>
+                                            <select class="form-control" id="filter-country" name="country">
+                                                <option value="">Quốc Gia</option>
+                                                <option value="malaysia">Malaysia</option>
+                                                <option value="phim-chau-a">Phim Châu Á</option>
+                                                <option value="phim-anh">Phim Anh</option>
+                                                <option value="phim-phap">Phim Pháp</option>
+                                                <option value="phim-chau-au">Phim Châu Âu</option>
+                                                <option value="phim-khac">Phim Khác</option>
+                                                <option value="phim-trung-quoc">Phim Trung Quốc</option>
+                                                <option value="phim-duc">Phim Đức</option>
+                                                <option value="phim-anh">Phim Anh</option>
+                                                <option value="phim-han-quoc">Phim Hàn Quốc</option>
+                                                <option value="phim-dai-loan">Phim Đài Loan</option>
+                                                <option value="phim-hong-kong">Phim Hồng Kông</option>
+                                                <option value="phim-nhat-ban">Phim Nhật Bản</option>
+                                                <option value="phim-my">Phim Mỹ</option>
+                                                <option value="phim-thai-lan">Phim Thái Lan</option>
+                                                <option value="phim-an-do">Phim Ấn Độ</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-xs-12 col-sm-6">
+                                        <div class="filter-box">
+                                            <div class="filter-box-title">Năm</div>
+                                            <select class="form-control" id="filter-year" name="release">
+                                                <option value="">Năm</option>
+                                                <option value="2021">2021</option>
+                                                <option value="2020">2020</option>
+                                                <option value="2019">2019</option>
+                                                <option value="2018">2018</option>
+                                                <option value="2017">2017</option>
+                                                <option value="2016">2016</option>
+                                                <option value="2015">2015</option>
+                                                <option value="2014">2014</option>
+                                                <option value="2013">2013</option>
+                                                <option value="2012">2012</option>
+                                                <option value="2011">2011</option>
+                                                <option value="2010">2010</option>
+                                                <option value="2009">2009</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2 col-xs-12 col-sm-6">
+                                        <button type="submit" id="btn-movie-filter" class="btn btn-danger">Lọc phim</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="los">
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Chuyện Gì Xảy Ra Nếu Như...?" alt="Chuyện Gì Xảy Ra Nếu Như...?">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-se-ra-sao-neu-2021.jpg" title="Chuyện Gì Xảy Ra Nếu Như...?" alt="Chuyện Gì Xảy Ra Nếu Như...?" />
+                                    <div class="overlay"> <span class="quality -">Tập 2</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Chuyện Gì Xảy Ra Nếu Như...?</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Boruto: Naruto Thế Hệ Kế Tiếp" alt="Boruto: Naruto Thế Hệ Kế Tiếp">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster_boruto-naruto-the-he-ke-tiep.jpg" title="Boruto: Naruto Thế Hệ Kế Tiếp" alt="Boruto: Naruto Thế Hệ Kế Tiếp" />
+                                    <div class="overlay"> <span class="quality -">Tập 211</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Boruto: Naruto Thế Hệ Kế Tiếp</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="One Piece Đảo Hải Tặc" alt="One Piece Đảo Hải Tặc">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-one-piece-dao-hai-tac-1999.jpg" title="One Piece Đảo Hải Tặc" alt="One Piece Đảo Hải Tặc" />
+                                    <div class="overlay"> <span class="quality -">Tập 987</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">One Piece Đảo Hải Tặc</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Đấu La Đại Lục" alt="Đấu La Đại Lục">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster_dau-la-dai-luc-2018.jpg" title="Đấu La Đại Lục" alt="Đấu La Đại Lục" />
+                                    <div class="overlay"> <span class="quality -">Tập 169</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Đấu La Đại Lục</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Star Wars: Lực Lượng Nhân Bản 99" alt="Star Wars: Lực Lượng Nhân Bản 99">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-star-wars-luc-luong-nhan-ban-99-2021.jpg" title="Star Wars: Lực Lượng Nhân Bản 99" alt="Star Wars: Lực Lượng Nhân Bản 99" />
+                                    <div class="overlay"> <span class="quality -">16/16</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Star Wars: Lực Lượng Nhân Bản 99</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Hoàng Tử Ai Cập" alt="Hoàng Tử Ai Cập">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-hoang-tu-ai-cap-1998.jpg" title="Hoàng Tử Ai Cập" alt="Hoàng Tử Ai Cập" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Hoàng Tử Ai Cập</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Liên Quân Siêu Thú" alt="Liên Quân Siêu Thú">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-lien-quan-sieu-thu-2019.jpg" title="Liên Quân Siêu Thú" alt="Liên Quân Siêu Thú" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Liên Quân Siêu Thú</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Vua Pháp Thuật" alt="Vua Pháp Thuật">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-vua-phap-thuat-2021.jpg" title="Vua Pháp Thuật" alt="Vua Pháp Thuật" />
+                                    <div class="overlay"> <span class="quality -">13/13</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Vua Pháp Thuật</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Nữ Chiến Binh Amazon" alt="Nữ Chiến Binh Amazon">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-nu-chien-binh-amazon-2021.jpg" title="Nữ Chiến Binh Amazon" alt="Nữ Chiến Binh Amazon" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Nữ Chiến Binh Amazon</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 2" alt="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 2">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-thuy-thu-mat-trang-vinh-hang-phan-2-2021.jpg" title="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 2" alt="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 2" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 2</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 1" alt="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 1">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-thuy-thu-mat-trang-vinh-hang-phan-1-2021.jpg" title="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 1" alt="Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 1" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Thủy Thủ Mặt Trăng: Vĩnh Hằng Phần 1</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Người Dơi: Đêm Trường Halloween Phần 2" alt="Người Dơi: Đêm Trường Halloween Phần 2">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-nguoi-doi-dem-truong-halloween-phan-2-2021.jpg" title="Người Dơi: Đêm Trường Halloween Phần 2" alt="Người Dơi: Đêm Trường Halloween Phần 2" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Người Dơi: Đêm Trường Halloween Phần 2</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Võ Tòng Huyết Chiến Sư Tử Lâu" alt="Võ Tòng Huyết Chiến Sư Tử Lâu">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-vo-tong-huyet-chien-su-tu-lau-2021.jpg" title="Võ Tòng Huyết Chiến Sư Tử Lâu" alt="Võ Tòng Huyết Chiến Sư Tử Lâu" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Võ Tòng Huyết Chiến Sư Tử Lâu</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Hồi Sinh Ký Ức" alt="Hồi Sinh Ký Ức">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-hoi-sinh-ky-uc-2021.jpg" title="Hồi Sinh Ký Ức" alt="Hồi Sinh Ký Ức" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Hồi Sinh Ký Ức</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Lục Kỵ Sĩ" alt="Lục Kỵ Sĩ">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-luc-ky-si-2021.jpg" title="Lục Kỵ Sĩ" alt="Lục Kỵ Sĩ" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Lục Kỵ Sĩ</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Cô Gái Ngọt Ngào" alt="Cô Gái Ngọt Ngào">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-co-gai-ngot-ngao-2021.jpg" title="Cô Gái Ngọt Ngào" alt="Cô Gái Ngọt Ngào" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Cô Gái Ngọt Ngào</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Thiên Đường Đen" alt="Thiên Đường Đen">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-thien-duong-den-2010.jpg" title="Thiên Đường Đen" alt="Thiên Đường Đen" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Thiên Đường Đen</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Vũ Trụ Tội Lỗi" alt="Vũ Trụ Tội Lỗi">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-vu-tru-toi-loi-2021.jpg" title="Vũ Trụ Tội Lỗi" alt="Vũ Trụ Tội Lỗi" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Vũ Trụ Tội Lỗi</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Phù Thủy Tình Yêu" alt="Phù Thủy Tình Yêu">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-phu-thuy-tinh-yeu-2016.jpg" title="Phù Thủy Tình Yêu" alt="Phù Thủy Tình Yêu" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Phù Thủy Tình Yêu</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Cô Gái Da Trắng" alt="Cô Gái Da Trắng">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-co-gai-da-trang-2016.jpg" title="Cô Gái Da Trắng" alt="Cô Gái Da Trắng" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Cô Gái Da Trắng</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Lối Thoát Thông Minh" alt="Lối Thoát Thông Minh">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-loi-thoat-thong-minh-2021.jpg" title="Lối Thoát Thông Minh" alt="Lối Thoát Thông Minh" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Lối Thoát Thông Minh</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Lính Bắn Tỉa: Quyết Chiến Sinh Tử" alt="Lính Bắn Tỉa: Quyết Chiến Sinh Tử">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-linh-ban-tia-quyet-chien-sinh-tu-2020.jpg" title="Lính Bắn Tỉa: Quyết Chiến Sinh Tử" alt="Lính Bắn Tỉa: Quyết Chiến Sinh Tử" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Lính Bắn Tỉa: Quyết Chiến Sinh Tử</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="Vịnh Câm Lặng" alt="Vịnh Câm Lặng">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-vinh-cam-lang-2020.jpg" title="Vịnh Câm Lặng" alt="Vịnh Câm Lặng" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">Vịnh Câm Lặng</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                    <article class="box">
+                        <div class="bx">
+                            <a href="#" title="G.I. Joe: Xà Nhãn Báo Thù" alt="G.I. Joe: Xà Nhãn Báo Thù">
+                                <div class="limit">
+                                    <img src="https://i3.wp.com/image.bongngocdn.com/upload/poster-g-i-joe-xa-nhan-bao-thu-2021.jpg" title="G.I. Joe: Xà Nhãn Báo Thù" alt="G.I. Joe: Xà Nhãn Báo Thù" />
+                                    <div class="overlay"> <span class="quality -">HD</span>
+                                        <header class="ttl entry-header">
+                                            <h3 class="entry-title">G.I. Joe: Xà Nhãn Báo Thù</h3>
+                                        </header>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+                <div class="pagination">
+                    <ul class='page-numbers'>
+                        <li><span class="page-numbers current">1</span> </li>
+                        <li><a class="page-numbers" href="#">2</a> </li>
+                        <li><a class="page-numbers" href="#">3</a> </li>
+                        <li><a class="page-numbers" href="#">4</a> </li>
+                        <li><a class="page-numbers" href="#">5</a> </li>
+                        <li><span class='page-numbers dots'>...</span> </li>
+                        <li><a class="page-numbers" href="#">Cuối</a> </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    <div id="footer">
+            <div class="bgc">Copyright ©2021 NETIME</div>
+    </div>
+    <!-- jquery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./phim.js"></script>
+</body>
+</html>
