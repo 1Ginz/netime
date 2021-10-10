@@ -2928,7 +2928,17 @@
             }
         }
 
+        .mobile{
+            display: none;
+        }
+
         @media only screen and (max-width:690px) {
+            .pc{
+                display: none;
+            }
+            .mobile{
+                display: block;
+            }
             #main-menu {
                 height: 60px
             }
