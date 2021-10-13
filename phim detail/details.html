@@ -15,7 +15,7 @@
         <div class="centernav">
             <div class="bound">
                 <div class="logo">
-                    <a href="#" title="Netime" rel="home">
+                    <a href="/oop project/index.html" title="Netime" rel="home">
                         <img src="https://netime.vercel.app/logo.png" alt="" rel="home" />
                     </a>
                 </div>
@@ -23,7 +23,7 @@
                 <span role="navigation">
                     <ul id="menu-menu" class="menu">
                         <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home">
-                            <a href="#" aria-current="page"><span>TRANG CHỦ</span></a>
+                            <a href="/oop project/index.html" aria-current="page"><span>TRANG CHỦ</span></a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page mobile"><a href="#"><span>ĐĂNG NHẬP</span></a>
                         </li>
@@ -348,12 +348,8 @@
                     <div class="infr">
                         <div class="minfr">
                             <div class="bmarea">
-                                <a id="youtube-link" class="youtube" href="javascript:void(0);" onclick="showVideo();"> 
-                                    <img id="youtube-thumb" src="https://img.youtube.com/vi/erwq6yJUibo/mqdefault.jpg" width="560" style="max-width:100%" alt="{ video title here }" />
-                                </a> 
-                            <iframe style="display: none; max-width:100%;" id="youtube-embed-iframe" width="560" height="315" data-src="https://www.youtube.com/embed/erwq6yJUibo?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                        </div>
+                                <iframe style="max-width:100%;" width="560" height="315" src="https://www.youtube.com/embed/WDVxzmi8uTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                 <div class="epg">
                     <h2>PHIM LẺ XEM NHIỀU</h2>
                     <div class="epgl">
@@ -779,37 +775,5 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./app.js"></script>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="yznNT322"></script>
-    <script>
-        var player;
-
-        function onYouTubeIframeAPIReady() {
-            player = new YT.Player("youtube-embed-iframe", {
-                height: "315",
-                width: "560",
-                videoId: "e1gAyQuIFQo",
-                events: {
-                    onReady: onPlayerReady
-                }
-            })
-        }
-
-        function onPlayerReady(e) {
-            console.log("player ready"), e.target.playVideo()
-        }
-
-        function stopVideo() {
-            player.stopVideo()
-        }
-
-        function showVideo() {
-            document.getElementById("youtube-link").style.display = "none", document.getElementById("youtube-embed-iframe").style.display = "block", document.getElementById("youtube-thumb").style.display = "none";
-            let e = document.getElementById("youtube-embed-iframe");
-            e.setAttribute("src", e.getAttribute("data-src"));
-            var t = document.createElement("script");
-            t.src = "https://www.youtube.com/iframe_api";
-            var o = document.getElementsByTagName("script")[0];
-            o.parentNode.insertBefore(t, o)
-        }
-    </script>
 </body>
 </html>
