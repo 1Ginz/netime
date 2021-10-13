@@ -3,7 +3,7 @@ body {
     color: #8e95a5 !important;
     font-size: 14px;
     /* background: #1e2129; */
-    background-color: #1A1A1A !important;
+    background-color: #0d0d0d !important;
     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif !important;
     margin: 0 auto;
     padding: 0;
@@ -201,7 +201,7 @@ a.random .dashicons {
 #main-menu .centernav {
     margin: 0 auto;
     max-width: 1120px;
-    padding: 0 15px;
+    padding: 0 15px
 }
 
 #main-menu .centernav .logo {
@@ -216,19 +216,19 @@ a.random .dashicons {
     line-height: 35px;
     width: auto;
     height: auto;
-    font-size: 16px; 
+    font-size: 16px;
     padding-right: 2px
 }
 
 #main-menu ul {
     position: relative;
-    float: left;
+    float: left
 }
 
 #main-menu ul li {
     float: left;
     position: relative;
-    margin: 0 6px;
+    margin: 0 6px
 }
 
 #main-menu ul li a {
@@ -263,7 +263,7 @@ a.random .dashicons {
 
 #main-menu ul li ul {
     position: absolute;
-    top: 60px; 
+    top: 60px;
     padding: 10px;
     min-width: 400px;
     display: none;
@@ -341,7 +341,7 @@ a.random .dashicons {
     display: none;
     color: #fff;
     line-height: 37px;
-    font-size: 16px; 
+    font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -486,107 +486,6 @@ input[type=checkbox]:checked~#menu-menu {
 .slider a{
     cursor: pointer;
 }
-.slider{
-    position: relative;
-    top: -16px;
-    background: rgba(0, 0, 0, .3);
-}
-.slider:before {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    height: 25%;
-    content: "";
-    background-color: rgba(255, 255, 255, 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#0d0d0d));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255,255,255,0)', endColorStr='#1e2129');
-    z-index: 3
-}
-
-.sliderinfo {
-    position: absolute;
-    bottom: 15%;
-    z-index: 2;
-    width: 100%
-}
-
-.sliderinfo .sliderinfolimit {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 15px
-}
-
-.sliderinfo .sliderinfolimit span.name {
-    color: #fff;
-    font-weight: 300;
-    font-size: 23px;
-    margin-bottom: 10px;
-    display: block;
-    max-width: 700px;
-    line-height: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
-}
-
-.sliderinfo .sliderinfolimit a.name:hover {
-    color: #ccc
-}
-
-.sliderinfo .sliderinfolimit .meta {
-    margin-bottom: 8px
-}
-
-.sliderinfo .sliderinfolimit .meta .quality {
-    display: inline-block;
-    padding: 2px 4px;
-    background: #fff;
-    color: #333;
-    color: #333;
-    vertical-align: top;
-    font-weight: 700;
-    font-size: 11px;
-    -webkit-border-radius: 2px;
-    -khtml-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
-    border-radius: 2px;
-    margin-right: 15px;
-    text-transform: uppercase
-}
-
-.sliderinfo .sliderinfolimit .meta span.text {
-    margin-right: 15px;
-    color: #fff;
-    font-weight: 300;
-    font-size: 13px
-}
-
-.sliderinfo .sliderinfolimit .meta span.text a {
-    color: #fff;
-    font-weight: 400
-}
-
-.sliderinfo .sliderinfolimit .desc {
-    color: #ddd;
-    max-width: 520px;
-    max-height: 40px;
-    overflow: hidden;
-    line-height: 19px;
-    font-size: 13px;
-    font-weight: 300
-}
-
-.sliderinfo .sliderinfolimit .desc p {
-    margin: 0
-}
 
 .latest {
     margin-bottom: 20px
@@ -649,10 +548,6 @@ input[type=checkbox]:checked~#menu-menu {
 .d-block{
     width: 100%;
     opacity: 0.6;
-    height: 500px;
-}
-.bound{
-    height: 50px;
 }
 .carousel-caption{
     text-align: left !important;
@@ -743,11 +638,11 @@ h1.entry-name {
     width: 14.28%
 }
 .slide{
-    display: block;
+    display: none;
 }
 @media only screen and (max-width: 767px) {
     .slide {
-        display: none; 
+        display: block;
     }
 }
 .minwidth .latest .los .box {
@@ -880,7 +775,6 @@ h1.entry-name {
     font-weight: 400;
     color: #fff
 }
-
 .latest .los .box .bx:hover{
     transform: scale(1.14);
 }
@@ -1928,7 +1822,7 @@ i.qua {
     float: right;
     text-transform: uppercase;
     font-weight: 500;
-    background: #272b34;
+    background: #262626;
     vertical-align: middle;
     font-size: 13px;
     padding: 6px 12px;
@@ -2349,7 +2243,7 @@ i.qua {
 }
 
 .pagination span.page-numbers.current {
-    background: #00acc1;
+    background: #ff4d00;
     color: #fff
 }
 
@@ -2832,6 +2726,11 @@ ul.live-search_main {
     text-align: center;
 }
 
+@media only screen and (max-width:1340px) {
+    .slider .paging {
+        left: 10px
+    }
+}
 
 @media only screen and (max-width:1200px) {
     .latest .los .box {
@@ -2997,6 +2896,12 @@ ul.live-search_main {
 @media only screen and (max-width:700px) {
     .latest.related .los .box {
         width: 25%
+    }
+    .mainslider .limit {
+        padding: 45% 0 0
+    }
+    .slider .paging {
+        display: none
     }
 }
 
@@ -3917,7 +3822,7 @@ div.notification span p {
 .movie-search-filter .btn-group {
     padding: 0;
     width: 100%;
-    background: #272b34;
+    background: #262626;
 }
 
 .btn-group,
@@ -4020,7 +3925,8 @@ option {
     white-space: pre;
     min-height: 1.2em;
     padding: 0px 2px 1px;
-    background: #1f2d39;
+    /* background: #1f2d39; */
+    background: #262626;
 }
 
 #btn-movie-filter {
@@ -4032,8 +3938,8 @@ option {
 
 .btn-danger {
     color: #fff;
-    background-color: #3f8aa7;
-    border-color: #3f8aa7;
+    background-color: #F22929;
+    border-color: #F22929;
 }
 
 .btn {

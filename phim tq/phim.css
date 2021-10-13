@@ -3,7 +3,7 @@ body {
     color: #8e95a5 !important;
     font-size: 14px;
     /* background: #1e2129; */
-    background-color: #0d0d0d !important;
+    background-color: #1A1A1A !important;
     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif !important;
     margin: 0 auto;
     padding: 0;
@@ -774,29 +774,6 @@ h1.entry-name {
     font-size: 15px;
     font-weight: 400;
     color: #fff
-}
-
-.latest .los .box .bx .limit:before {  
-    -webkit-transition: top .5s ease 0s, left .5s ease 0s, right .5s ease 0s, bottom .5s ease 0s, opacity .5s ease-out;
-    -khtml-transition: top .5s ease 0s, left .5s ease 0s, right .5s ease 0s, bottom .5s ease 0s, opacity .5s ease-out;
-    -moz-transition: top .5s ease 0s, left .5s ease 0s, right .5s ease 0s, bottom .5s ease 0s, opacity .5s ease-out;
-    -ms-transition: top .5s ease 0s, left .5s ease 0s, right .5s ease 0s, bottom .5s ease 0s, opacity .5s ease-out;
-    -o-transition: top .5s ease 0s, left .5s ease 0s, right .5s ease 0s, bottom .5s ease 0s, opacity .5s ease-out;
-    transition: top .5s ease 0s, left .5s ease 0s, right .5s ease 0s, bottom .5s ease 0s, opacity .5s ease-out;
-    opacity: 0;
-    background: rgba(0, 0, 0, .3);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    content: "";
-    -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px
 }
 .latest .los .box .bx:hover{
     transform: scale(1.14);
