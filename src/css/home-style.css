@@ -3,7 +3,7 @@ body {
     color: #8e95a5 !important;
     font-size: 14px;
     /* background: #1e2129; */
-    background-color: #1A1A1A !important;
+    background-color: #121212 !important;
     font-family: Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif !important;
     margin: 0 auto;
     padding: 0;
@@ -499,12 +499,12 @@ input[type=checkbox]:checked~#menu-menu {
     height: 25%;
     content: "";
     background-color: rgba(255, 255, 255, 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#1A1A1A));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
-    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
-    background-image: linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#121212));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #121212);
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #121212);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #121212);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #121212);
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0), #121212);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255,255,255,0)', endColorStr='#1e2129');
     z-index: 3
 }
