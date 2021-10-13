@@ -499,12 +499,12 @@ input[type=checkbox]:checked~#menu-menu {
     height: 25%;
     content: "";
     background-color: rgba(255, 255, 255, 0);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#0d0d0d));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
-    background-image: linear-gradient(top, rgba(255, 255, 255, 0), #0d0d0d);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#1A1A1A));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0), #1A1A1A);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(255,255,255,0)', endColorStr='#1e2129');
     z-index: 3
 }
