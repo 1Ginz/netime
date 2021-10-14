@@ -185,12 +185,12 @@ a.random .dashicons {
     background-color: #262626;
     height: 60px;
     width: 100%;
-    -webkit-box-shadow: 0 14px 27px #16181e;
-    -khtml-box-shadow: 0 14px 27px #16181e;
-    -moz-box-shadow: 0 14px 27px #16181e;
-    -ms-box-shadow: 0 14px 27px #16181e;
-    -o-box-shadow: 0 14px 27px #16181e;
-    box-shadow: 0 14px 27px #16181e
+    -webkit-box-shadow: 0 14px 27px #1A1A1A;
+    -khtml-box-shadow: 0 14px 27px #1A1A1A;
+    -moz-box-shadow: 0 14px 27px #1A1A1A;
+    -ms-box-shadow: 0 14px 27px #1A1A1A;
+    -o-box-shadow: 0 14px 27px #1A1A1A;
+    box-shadow: 0 14px 27px #1A1A1A
 }
 
 #main-menu .centernav .logo img {
@@ -645,6 +645,47 @@ h1.entry-name {
         display: block;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .bigplay iframe{
+        width: 290px;
+        height: 163.13px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+    .bigplay iframe{
+        width: 345.2px;
+        height: 195.18px;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .bigplay iframe{
+        width: 395.6px;
+        height: 222.53px;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .bigplay iframe{
+        width: 738px;
+        height: 415.13px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .bigplay iframe{
+        width: 994px;
+        height: 559.13px;
+    }
+}
+
+@media only screen and (min-width: 1024px){  
+    .bigplay iframe{
+        width: 1120px;
+        height: 630px;
+    }
+}
+
+
 .minwidth .latest .los .box {
     width: 16.6%
 }
@@ -1327,13 +1368,14 @@ i.qua {
 
 .infodb .entry-content {
     line-height: 160%;
-    font-size: 14px
+    font-size: 14px;
+    color: #fff; 
 }
 
 .infodb .entry-content .data {
     overflow: hidden;
     margin-bottom: 15px;
-    column-count: 2
+    column-count: 2;
 }
 
 .infodb .entry-content .data li {
@@ -1394,8 +1436,6 @@ i.qua {
     margin-top: 15px;
     font-size: 13px;
     line-height: 20px;
-    background: #00000026;
-    border: 1px solid #00000026;
     padding: 5px;
 }
 
@@ -1521,7 +1561,7 @@ i.qua {
 
 .epg h2,
 .epg h3 {
-    background: #343946;
+    background: #262626;
     color: #8e95a5;
     padding: 10px 15px;
     line-height: normal;
@@ -2463,11 +2503,12 @@ ol.comment-list li.pingback {
 .cmt .cmnt {
     font-size: 17px;
     display: block;
-    color: #00acc1;
+    color: #8e95a5;
     text-transform: uppercase;
     font-weight: 500;
     vertical-align: middle;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    background-color: #121212;
 }
 
 .comment-form-author label,
@@ -3251,20 +3292,20 @@ a.movie-episode {
     border-radius: 3px
 }
 
-div#list-server-json {
+.list-server {
     padding-bottom: 10px;
     text-align: center
 }
 
-a.btn.btn-success.link-backup {
+.link-backup {
     background: #343946;
     margin: 5px;
-    color: #fff;
+    color: #EBEBEB;
     border-radius: 4px
 }
 
-a.btn.btn-success.link-backup.active {
-    background: #ff6565
+.active {
+    background: #ff4d00
 }
 
 span.rated-star {
@@ -3302,13 +3343,14 @@ ul.movie-list-eps {
 }
 
 .movie-episode a.active {
-    background: #0eafc1;
+    background: #ff4d00;
     color: #fff
 }
 
 span.error-alert {
     text-align: center
 }
+
 
 .pagination .page-numbers li {
     float: left;

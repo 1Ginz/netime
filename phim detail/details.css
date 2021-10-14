@@ -1328,7 +1328,7 @@ i.qua {
 .infodb .entry-content {
     line-height: 160%;
     font-size: 14px;
-    color: #d1d1d1; 
+    color: #fff; 
 }
 
 .infodb .entry-content .data {
@@ -1369,8 +1369,6 @@ i.qua {
     margin-top: 15px;
     font-size: 13px;
     line-height: 20px;
-    background: #00000026;
-    border: 1px solid #00000026;
     padding: 5px;
 }
 
